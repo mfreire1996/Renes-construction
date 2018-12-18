@@ -234,7 +234,7 @@ img {
 }
 
   /* For animate css */
-.text {
+.words {
     color: #2e3131;
     font-size: 50px;
     font-family: Roboto;
@@ -247,35 +247,7 @@ img {
     transform: translate(-50%, -20%);
 }
 
-
 /* End of blurred background */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .info {
   text-align: center;
@@ -574,8 +546,10 @@ img {
 
 .charlie {
   color: #fff;
+  position: relative;
   font-size: 2vw;
-  float: right;
+  left: 50vw;
+  top: 15vw;
 }
 
 .general-contact {
@@ -609,6 +583,7 @@ img {
 .social-media {
   float: right;
   color: #fff;
+  width: 33.33%;
   font-size: 1.5vw;
 }
 
