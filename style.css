@@ -148,7 +148,7 @@ color: #584E4A;
 
 
 .bg-image {
-  background-image: url(../construction/3.jpg);
+  background-image: url(3.jpg);
   /* Adding blur effect */ 
   filter: blur(8px);
   -webkit-filter: blur(8px);
@@ -247,7 +247,7 @@ color: #584E4A;
 .box .image span {
   width: 25%;
   height: 100%;
-  background-image: url(../construction/3.jpg);
+  background-image: url(3.jpg);
   transition: 0.5s;
 }
 
@@ -333,7 +333,7 @@ color: #584E4A;
 .box-2 .image span {
   width: 25%;
   height: 100%;
-  background-image: url(../construction/3.jpg);
+  background-image: url(3.jpg);
   transition: 0.5s;
 }
 
@@ -415,7 +415,7 @@ color: #584E4A;
 .box-3 .image span {
   width: 25%;
   height: 100%;
-  background-image: url(../construction/3.jpg);
+  background-image: url(3.jpg);
   transition: 0.5s;
 }
 
