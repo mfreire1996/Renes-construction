@@ -197,6 +197,13 @@ color: #584E4A;
   color: #444444;
 }
 
+@media (min-width: 600px) {
+  .info-text {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+}
+
 .projects {
   text-align: center;
   font-family: Roboto;
@@ -220,8 +227,6 @@ color: #584E4A;
   height: 100;
   background-color: #fff;
 }
-
-
 
 .map {
   float: left;
@@ -310,7 +315,6 @@ color: #584E4A;
   text-align: right;
 }
 
-
 .box-2 {
   position: relative;
   width: 50vw;
@@ -333,7 +337,7 @@ color: #584E4A;
 .box-2 .image span {
   width: 25%;
   height: 100%;
-  background-image: url(3.jpg);
+  background-image: url(2.jpg);
   transition: 0.5s;
 }
 
@@ -415,7 +419,7 @@ color: #584E4A;
 .box-3 .image span {
   width: 25%;
   height: 100%;
-  background-image: url(3.jpg);
+  background-image: url(4.jpg);
   transition: 0.5s;
 }
 
@@ -506,6 +510,20 @@ color: #584E4A;
   font-size: 1.5vw;
 }
 
+@media (min-width: 600px) {
+  .address {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 600px) {
+  .address-2{
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+}
+
 .social-media {
   float: right;
   color: #fff;
@@ -534,7 +552,6 @@ color: #584E4A;
 .fa-instagram {
   color: white;
 }
-
 
 
 
