@@ -199,7 +199,7 @@ color: #584E4A;
 
 @media (min-width: 600px) {
   .info-text {
-    font-size: 1.25rem;
+    font-size: 1.25em;
     line-height: 1.5;
   }
 }
@@ -216,9 +216,20 @@ color: #584E4A;
   color: #eeeeee;
 }
 
+.projects-intro-text {
+  color: #eeeeee;
+}
+
 .projects-text {
   text-align: left;
   color: #fff;
+}
+
+@media (min-width: 600px) {
+  .projects-text {
+    font-size: 1.25em;
+    line-height: 1.5;
+  }
 }
 
 .contact {
@@ -303,7 +314,7 @@ color: #584E4A;
 
 .box .projects-text p {
   color: #fff;
-  font-size: 16px;
+  font-size: 2.5vw;
   font-family: calluna;
 }
 
@@ -313,6 +324,12 @@ color: #584E4A;
   top: 200px; 
   font-size: 2vw;
   text-align: right;
+}
+
+@media (min-width: 600px) {
+  .alpha {
+    font-size: 1.25em;
+  }
 }
 
 .box-2 {
@@ -388,7 +405,7 @@ color: #584E4A;
 
 .box-2 .projects-text-2 p {
   color: #fff;
-  font-size: 16px;
+  font-size: 2.5vw;
   font-family: Roboto;
 }
 
@@ -470,7 +487,7 @@ color: #584E4A;
 
 .box-3 .projects-text-3 p {
   color: #fff;
-  font-size: 16px;
+  font-size: 2.5vw;
   font-family: Roboto;
 }
 
@@ -510,7 +527,7 @@ color: #584E4A;
   font-size: 1.5vw;
 }
 
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
   .address {
     font-size: 1.25rem;
     line-height: 1.5;
@@ -522,7 +539,7 @@ color: #584E4A;
     font-size: 1.25rem;
     line-height: 1.5;
   }
-}
+} */
 
 .social-media {
   float: right;
